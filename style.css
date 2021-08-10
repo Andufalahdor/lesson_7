@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-search {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.search-input,
+.search-btn {
+    margin-top: 10px;
+    width: 49%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.search-btn {
+    background-color: #43b846;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-input {
+    border: 1px gray solid
+}
+
+.search-input:focus-visible {
+    border: 1px lightblue solid;
+    outline: none;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.elem {
+    width: 200px;
+    margin: 25px;
+}
+
+.poster {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5d2ce;
+    font-size: 18px;
+    overflow: auto;
+}
+
+.type,
+.year {
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.more-btn {
+    width: 100%;
+    padding: 5px;
+    background-color: #43b846;
+    border: 1px gray solid;
+    color: white;
+    cursor: pointer;
+}
+
+.morebox {
+    background: #00000070;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    display: none;
+}
+
+.morebox-content {
+    width: 80%;
+    height: 76%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 6%;
+    border-radius: 10px;
+    border: 1px black solid;
+    display: flex;
+}
+
+.left {
+    background: url(https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 54%;
+}
+
+.film-name {
+    margin-top: 5%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdcdcd;
+    font-size: 18px;
+}
+
+.right {
+    width: 50%;
+    margin-right: 3%;
+}
+
+.film-description,
+.film-plot,
+.film-written,
+.film-directed,
+.film-starring,
+.film-boxoffice,
+.film-awards,
+.film-rattings {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
